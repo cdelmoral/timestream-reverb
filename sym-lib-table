@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name timestream-reverb)(type Legacy)(uri ${KIPRJMOD}/timestream-reverb.lib)(options "")(descr ""))
+)
