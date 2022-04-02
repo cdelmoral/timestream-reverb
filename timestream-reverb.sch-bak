@@ -7,7 +7,7 @@ Sheet 1 1
 Title "Timestream Reverb Guitar Pedal"
 Date "2022-01-25"
 Rev "1"
-Comp ""
+Comp "Carlos del Moral"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -16,10 +16,10 @@ $EndDescr
 Text GLabel 2700 2000 0    50   Input ~ 0
 IN
 $Comp
-L Device:R R7
+L Device:R R6
 U 1 1 61F6473B
 P 2900 2250
-F 0 "R7" H 2970 2296 50  0000 L CNN
+F 0 "R6" H 2970 2296 50  0000 L CNN
 F 1 "1M" H 2970 2205 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2830 2250 50  0001 C CNN
 F 3 "~" H 2900 2250 50  0001 C CNN
@@ -38,10 +38,10 @@ F 3 "~" H 3100 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R6
+L Device:R R7
 U 1 1 61F670E5
 P 3400 1800
-F 0 "R6" H 3470 1846 50  0000 L CNN
+F 0 "R7" H 3470 1846 50  0000 L CNN
 F 1 "1M" H 3470 1755 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3330 1800 50  0001 C CNN
 F 3 "~" H 3400 1800 50  0001 C CNN
@@ -106,10 +106,10 @@ F 3 "" H 3750 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R9
+L Device:R R8
 U 1 1 61F801F4
 P 3400 2900
-F 0 "R9" H 3470 2946 50  0000 L CNN
+F 0 "R8" H 3470 2946 50  0000 L CNN
 F 1 "10k" H 3470 2855 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3330 2900 50  0001 C CNN
 F 3 "~" H 3400 2900 50  0001 C CNN
@@ -141,10 +141,10 @@ Connection ~ 3400 2650
 Wire Wire Line
 	3400 2650 3400 2750
 $Comp
-L Device:C C8
+L Device:C C7
 U 1 1 61F86912
 P 3400 3200
-F 0 "C8" H 3285 3154 50  0000 R CNN
+F 0 "C7" H 3285 3154 50  0000 R CNN
 F 1 "22n" H 3285 3245 50  0000 R CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 3438 3050 50  0001 C CNN
 F 3 "~" H 3400 3200 50  0001 C CNN
@@ -178,16 +178,16 @@ U 1 1 61F9D49E
 P 3250 3750
 F 0 "SW1" V 3204 3898 50  0000 L CNN
 F 1 "SW_SPDT" V 3295 3898 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.1sqmm_1x03_P3.6mm_D0.4mm_OD1mm" H 3250 3750 50  0001 C CNN
+F 2 "timestream-reverb:TerminalBlock_3pin_2.54mm" H 3250 3750 50  0001 C CNN
 F 3 "~" H 3250 3750 50  0001 C CNN
 	1    3250 3750
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C11
+L Device:C C9
 U 1 1 61F9EA7B
 P 3150 4200
-F 0 "C11" H 3035 4154 50  0000 R CNN
+F 0 "C9" H 3035 4154 50  0000 R CNN
 F 1 "22n" H 3035 4245 50  0000 R CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 3188 4050 50  0001 C CNN
 F 3 "~" H 3150 4200 50  0001 C CNN
@@ -195,10 +195,10 @@ F 3 "~" H 3150 4200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C12
+L Device:C C10
 U 1 1 61F9F77F
 P 3550 4200
-F 0 "C12" H 3435 4154 50  0000 R CNN
+F 0 "C10" H 3435 4154 50  0000 R CNN
 F 1 "4.7n" H 3435 4245 50  0000 R CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 3588 4050 50  0001 C CNN
 F 3 "~" H 3550 4200 50  0001 C CNN
@@ -206,10 +206,10 @@ F 3 "~" H 3550 4200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R12
+L Device:R R10
 U 1 1 61F9FCF8
 P 4700 3350
-F 0 "R12" V 4907 3350 50  0000 C CNN
+F 0 "R10" V 4907 3350 50  0000 C CNN
 F 1 "1k" V 4816 3350 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4630 3350 50  0001 C CNN
 F 3 "~" H 4700 3350 50  0001 C CNN
@@ -217,10 +217,10 @@ F 3 "~" H 4700 3350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R14
+L Device:R R9
 U 1 1 61FA0596
 P 4150 3750
-F 0 "R14" V 4357 3750 50  0000 C CNN
+F 0 "R9" V 4357 3750 50  0000 C CNN
 F 1 "22k" V 4266 3750 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4080 3750 50  0001 C CNN
 F 3 "~" H 4150 3750 50  0001 C CNN
@@ -228,10 +228,10 @@ F 3 "~" H 4150 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C10
+L Device:C C8
 U 1 1 61FA0C51
 P 4150 4100
-F 0 "C10" V 4402 4100 50  0000 C CNN
+F 0 "C8" V 4402 4100 50  0000 C CNN
 F 1 "100p" V 4311 4100 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 4188 3950 50  0001 C CNN
 F 3 "~" H 4150 4100 50  0001 C CNN
@@ -284,21 +284,21 @@ Wire Wire Line
 Wire Wire Line
 	3550 4450 3550 4350
 $Comp
-L Device:R_POT RV3
+L Device:R_POT RV1
 U 1 1 61FB6D6E
 P 5150 3350
-F 0 "RV3" V 4943 3350 50  0000 C CNN
+F 0 "RV1" V 4943 3350 50  0000 C CNN
 F 1 "10kb" V 5034 3350 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Omeg_PC16BU_Vertical" H 5150 3350 50  0001 C CNN
+F 2 "timestream-reverb:Tayda_Potentiometer" H 5150 3350 50  0001 C CNN
 F 3 "~" H 5150 3350 50  0001 C CNN
 	1    5150 3350
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C9
+L Device:C C11
 U 1 1 61FB7F0C
 P 5150 3650
-F 0 "C9" H 5035 3604 50  0000 R CNN
+F 0 "C11" H 5035 3604 50  0000 R CNN
 F 1 "33n" H 5035 3695 50  0000 R CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 5188 3500 50  0001 C CNN
 F 3 "~" H 5150 3650 50  0001 C CNN
@@ -324,7 +324,7 @@ U 1 1 61FC5856
 P 5800 3350
 F 0 "U4" H 5550 3650 50  0000 C CNN
 F 1 "BTDR-2" H 6100 3050 50  0000 C CNN
-F 2 "timestream-reverb:BTDR-2H" H 5100 3700 50  0001 C CNN
+F 2 "timestream-reverb:TerminalBlock_6pin_2.54mm" H 5100 3700 50  0001 C CNN
 F 3 "" H 5100 3700 50  0001 C CNN
 	1    5800 3350
 	1    0    0    -1  
@@ -376,10 +376,10 @@ F 3 "~" H 6350 3250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R13
+L Device:R R12
 U 1 1 61FCE3CE
 P 6350 3450
-F 0 "R13" V 6250 3450 50  0000 C CNN
+F 0 "R12" V 6250 3450 50  0000 C CNN
 F 1 "10k" V 6150 3450 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6280 3450 50  0001 C CNN
 F 3 "~" H 6350 3450 50  0001 C CNN
@@ -387,12 +387,12 @@ F 3 "~" H 6350 3450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_POT RV4
+L Device:R_POT RV2
 U 1 1 61FCE6AC
 P 6750 3350
-F 0 "RV4" V 6635 3350 50  0000 C CNN
+F 0 "RV2" V 6635 3350 50  0000 C CNN
 F 1 "25kb" V 6544 3350 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Omeg_PC16BU_Vertical" H 6750 3350 50  0001 C CNN
+F 2 "timestream-reverb:Tayda_Potentiometer" H 6750 3350 50  0001 C CNN
 F 3 "~" H 6750 3350 50  0001 C CNN
 	1    6750 3350
 	0    1    -1   0   
@@ -413,10 +413,10 @@ VB
 Wire Wire Line
 	6900 3350 6950 3350
 $Comp
-L Device:R R10
+L Device:R R13
 U 1 1 61FD777D
 P 6750 2950
-F 0 "R10" V 6957 2950 50  0000 C CNN
+F 0 "R13" V 6957 2950 50  0000 C CNN
 F 1 "10k" V 6866 2950 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6680 2950 50  0001 C CNN
 F 3 "~" H 6750 2950 50  0001 C CNN
@@ -477,10 +477,10 @@ F 3 "" H 7100 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R8
+L Device:R R14
 U 1 1 620025D5
 P 7350 2750
-F 0 "R8" V 7557 2750 50  0000 C CNN
+F 0 "R14" V 7557 2750 50  0000 C CNN
 F 1 "22k" V 7466 2750 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7280 2750 50  0001 C CNN
 F 3 "~" H 7350 2750 50  0001 C CNN
@@ -499,10 +499,10 @@ Wire Wire Line
 Wire Wire Line
 	7550 2750 7500 2750
 $Comp
-L Device:CP1 C7
+L Device:CP1 C12
 U 1 1 62008B3A
 P 7750 2200
-F 0 "C7" V 8002 2200 50  0000 C CNN
+F 0 "C12" V 8002 2200 50  0000 C CNN
 F 1 "1u" V 7911 2200 50  0000 C CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 7750 2200 50  0001 C CNN
 F 3 "~" H 7750 2200 50  0001 C CNN
@@ -510,12 +510,12 @@ F 3 "~" H 7750 2200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_POT RV2
+L Device:R_POT RV3
 U 1 1 6200A1BF
 P 7550 3250
-F 0 "RV2" H 7481 3204 50  0000 R CNN
+F 0 "RV3" H 7481 3204 50  0000 R CNN
 F 1 "10kb" H 7481 3295 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Omeg_PC16BU_Vertical" H 7550 3250 50  0001 C CNN
+F 2 "timestream-reverb:Tayda_Potentiometer" H 7550 3250 50  0001 C CNN
 F 3 "~" H 7550 3250 50  0001 C CNN
 	1    7550 3250
 	1    0    0    1   
@@ -549,17 +549,6 @@ Wire Wire Line
 	7600 2200 7550 2200
 Connection ~ 7550 2200
 $Comp
-L Device:R_POT RV1
-U 1 1 6201B5DD
-P 8150 2600
-F 0 "RV1" H 8081 2554 50  0000 R CNN
-F 1 "10kb" H 8081 2645 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Omeg_PC16BU_Vertical" H 8150 2600 50  0001 C CNN
-F 3 "~" H 8150 2600 50  0001 C CNN
-	1    8150 2600
-	1    0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR015
 U 1 1 6201C017
 P 8150 2750
@@ -578,17 +567,6 @@ Text GLabel 8600 2600 2    50   Input ~ 0
 OUT
 Wire Wire Line
 	7850 3250 7850 3700
-$Comp
-L Device:LED D1
-U 1 1 61F130E7
-P 1650 6250
-F 0 "D1" H 1643 5995 50  0000 C CNN
-F 1 "LED" H 1643 6086 50  0000 C CNN
-F 2 "LED_THT:LED_D5.0mm" H 1650 6250 50  0001 C CNN
-F 3 "~" H 1650 6250 50  0001 C CNN
-	1    1650 6250
-	1    0    0    1   
-$EndComp
 $Comp
 L Device:R R1
 U 1 1 61F1249A
@@ -701,8 +679,8 @@ Wire Wire Line
 	2150 6300 2150 6250
 Wire Wire Line
 	2100 6250 2150 6250
-Text GLabel 1300 6250 0    50   Input ~ 0
-FS
+Text GLabel 1600 6250 0    50   Input ~ 0
+LED+
 Wire Wire Line
 	4650 7150 4700 7150
 Connection ~ 4650 7150
@@ -895,89 +873,7 @@ F 3 "" H 2600 5900 50  0001 C CNN
 	1    2600 5900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x01_Female J1
-U 1 1 6214B2A0
-P 2500 1850
-F 0 "J1" H 2550 1850 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 2150 1750 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 2500 1850 50  0001 C CNN
-F 3 "~" H 2500 1850 50  0001 C CNN
-	1    2500 1850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J3
-U 1 1 6214CFED
-P 2300 5950
-F 0 "J3" H 2350 5950 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 2450 5850 50  0000 C CNN
-F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 2300 5950 50  0001 C CNN
-F 3 "~" H 2300 5950 50  0001 C CNN
-	1    2300 5950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J2
-U 1 1 6214D5A7
-P 8800 2450
-F 0 "J2" H 8828 2476 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 8828 2385 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 8800 2450 50  0001 C CNN
-F 3 "~" H 8800 2450 50  0001 C CNN
-	1    8800 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J4
-U 1 1 6214DBBD
-P 1100 6400
-F 0 "J4" H 1150 6400 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 1250 6500 50  0000 C CNN
-F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1100 6400 50  0001 C CNN
-F 3 "~" H 1100 6400 50  0001 C CNN
-	1    1100 6400
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J5
-U 1 1 62158E75
-P 1700 6600
-F 0 "J5" H 1750 6600 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 1850 6700 50  0000 C CNN
-F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1700 6600 50  0001 C CNN
-F 3 "~" H 1700 6600 50  0001 C CNN
-	1    1700 6600
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8600 2450 8500 2450
-Wire Wire Line
-	8500 2450 8500 2600
-Wire Wire Line
-	8300 2600 8500 2600
-Wire Wire Line
-	8600 2600 8500 2600
-Connection ~ 8500 2600
-Wire Wire Line
-	2700 2000 2800 2000
 Connection ~ 2900 2000
-Wire Wire Line
-	2700 1850 2800 1850
-Wire Wire Line
-	2800 1850 2800 2000
-Connection ~ 2800 2000
-Wire Wire Line
-	2800 2000 2900 2000
-Wire Wire Line
-	1300 6250 1400 6250
-Wire Wire Line
-	1300 6400 1400 6400
-Wire Wire Line
-	1400 6400 1400 6250
-Connection ~ 1400 6250
-Wire Wire Line
-	1400 6250 1500 6250
 Wire Wire Line
 	2150 6600 2150 6650
 Wire Wire Line
@@ -985,11 +881,76 @@ Wire Wire Line
 Connection ~ 2150 6600
 Wire Wire Line
 	2600 6600 2600 6650
+$Comp
+L Connector:Conn_01x05_Female J1
+U 1 1 6242484C
+P 7950 5700
+F 0 "J1" H 7978 5726 50  0000 L CNN
+F 1 "Conn_01x05_Female" H 7978 5635 50  0000 L CNN
+F 2 "timestream-reverb:TerminalBlock_5pin_2.54mm" H 7950 5700 50  0001 C CNN
+F 3 "~" H 7950 5700 50  0001 C CNN
+	1    7950 5700
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	2600 5900 2600 5950
+	1600 6250 1800 6250
+$Comp
+L power:GND #PWR020
+U 1 1 62428E94
+P 7600 6000
+F 0 "#PWR020" H 7600 5750 50  0001 C CNN
+F 1 "GND" H 7605 5827 50  0000 C CNN
+F 2 "" H 7600 6000 50  0001 C CNN
+F 3 "" H 7600 6000 50  0001 C CNN
+	1    7600 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+9V #PWR019
+U 1 1 6242A649
+P 7600 5400
+F 0 "#PWR019" H 7600 5250 50  0001 C CNN
+F 1 "+9V" H 7615 5573 50  0000 C CNN
+F 2 "" H 7600 5400 50  0001 C CNN
+F 3 "" H 7600 5400 50  0001 C CNN
+	1    7600 5400
+	1    0    0    -1  
+$EndComp
+Text GLabel 7600 5600 0    50   Input ~ 0
+LED+
 Wire Wire Line
-	2500 5950 2600 5950
-Connection ~ 2600 5950
+	2700 2000 2900 2000
+Text GLabel 7600 5700 0    50   Input ~ 0
+IN
+$Comp
+L Device:R_POT RV4
+U 1 1 6201B5DD
+P 8150 2600
+F 0 "RV4" H 8081 2554 50  0000 R CNN
+F 1 "10kb" H 8081 2645 50  0000 R CNN
+F 2 "timestream-reverb:Tayda_Potentiometer" H 8150 2600 50  0001 C CNN
+F 3 "~" H 8150 2600 50  0001 C CNN
+	1    8150 2600
+	1    0    0    1   
+$EndComp
 Wire Wire Line
-	2600 5950 2600 6250
+	8300 2600 8600 2600
+Text GLabel 7600 5800 0    50   Input ~ 0
+OUT
+Wire Wire Line
+	7600 5600 7750 5600
+Wire Wire Line
+	7600 5700 7750 5700
+Wire Wire Line
+	7600 5800 7750 5800
+Wire Wire Line
+	7600 6000 7600 5900
+Wire Wire Line
+	7600 5900 7750 5900
+Wire Wire Line
+	7750 5500 7600 5500
+Wire Wire Line
+	7600 5500 7600 5400
+Wire Wire Line
+	2600 5900 2600 6250
 $EndSCHEMATC
